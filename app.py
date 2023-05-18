@@ -50,7 +50,7 @@ socketio = SocketIO(app)
 @app.route('/')
 def homeForm():
    session.clear()
-   return render_template(['lina.html'])
+   return render_template(['Visualizaion.html'])
 
 
 
